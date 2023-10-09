@@ -1,0 +1,27 @@
+/*Reset Styles*/
+
+/*head*/
+nav {
+    background-color: goldenrod; /*Change to hex code*/
+    padding: 5px;
+    border: 2px;
+    width: 100%
+}
+nav button {
+    padding: 5px;
+    border-radius: 12px;
+    border: none;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:visited, nav a:link {
+color: green;/*Change to hex code*/
+}
+
+/*body*/
+body {
+    background-color: beige; /*Change to hex code*/
+}
+
+/*MISC*/
