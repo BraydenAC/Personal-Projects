@@ -1,10 +1,33 @@
 /*Reset Styles*/
+body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
 
-/*head*/
+/*Page*/
+html, body {
+    height: 100%;
+}
+html {
+    background-color: lightblue;
+}
+
+/*body*/
+body {
+    background-color: beige; /*Change to hex code*/
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(255,255,255);
+}
+body article{
+
+}
+
+/*nav*/
 nav {
     background-color: goldenrod; /*Change to hex code*/
     padding: 5px;
-    border: 2px;
     width: 100%
 }
 nav button {
@@ -19,9 +42,5 @@ nav a:visited, nav a:link {
 color: green;/*Change to hex code*/
 }
 
-/*body*/
-body {
-    background-color: beige; /*Change to hex code*/
-}
-
 /*MISC*/
+
