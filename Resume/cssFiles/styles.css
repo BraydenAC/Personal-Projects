@@ -1,9 +1,10 @@
 /*Reset Styles*/
-body {
+body, p, li, ul, nav {
     border: 0;
     padding: 0;
     margin: 0;
 }
+
 
 /*Page*/
 html, body {
@@ -15,25 +16,36 @@ html {
 
 /*body*/
 body {
-    background-color: beige; /*Change to hex code*/
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     background-color: rgb(255,255,255);
 }
-body article{
-
+.volunteerwork {
+    border: 3px solid black;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+.volunteertitle {
+    padding: 10px;
 }
 
 /*nav*/
 nav {
     background-color: goldenrod; /*Change to hex code*/
-    padding: 5px;
-    width: 100%
+    width: 96%;
+    padding: 10px 2% 10px 2%;
+    text-align: right;
 }
 nav button {
     padding: 5px;
     border-radius: 12px;
     border: none;
+}
+nav li {
+    display: inline-block;
 }
 nav a {
     text-decoration: none;
@@ -42,5 +54,10 @@ nav a:visited, nav a:link {
 color: green;/*Change to hex code*/
 }
 
-/*MISC*/
-
+/*Desktop formatting*/
+@media screen and (min-width: 1000px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
