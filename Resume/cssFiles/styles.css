@@ -1,5 +1,5 @@
 /*Reset Styles*/
-body, p, li, ul, nav {
+body, p, li, ul, nav, img {
     border: 0;
     padding: 0;
     margin: 0;
@@ -53,6 +53,30 @@ nav a {
 nav a:visited, nav a:link {
 color: green;/*Change to hex code*/
 }
+
+/* Skill Cards */
+div.skillCards {
+    
+} 
+.skillCards section {
+    border: 3px solid black;
+    width: 140px;
+    height: 180px;
+    margin: 0;
+}
+.skillCards section img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+}
+.skillCards section h1 {
+
+}
+.skillCards section p {
+    color: gray;
+}
+
+
 
 /*Desktop formatting*/
 @media screen and (min-width: 1000px) {
