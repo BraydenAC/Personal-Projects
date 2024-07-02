@@ -11,14 +11,13 @@ html, body {
     height: 100%;
 }
 html {
-    background-color: lightblue;
+    background-image: url("../images/tilableBody.jpg");
 }
 
 /*body*/
 body {
     margin-left: 2%;
     margin-right: 2%;
-    background-color: rgb(255,255,255);
 }
 .volunteerwork {
     border: 3px solid black;
@@ -45,7 +44,7 @@ nav button {
     border: none;
 }
 nav li {
-    display: inline-block;
+    display: inline-block; 
 }
 nav a {
     text-decoration: none;
@@ -54,20 +53,27 @@ nav a:visited, nav a:link {
 color: green;/*Change to hex code*/
 }
 
+/* Section For Skill Cards */
+.skillBanner {
+    
+}
 /* Skill Cards */
-div.skillCards {
+.skillCards {
     
 } 
 .skillCards section {
-    border: 3px solid black;
+    border-radius: 15px;
+    background-color: lightgrey;
     width: 140px;
     height: 180px;
     margin: 0;
+    display: flex;
+    flex-direction: vertical;
 }
 .skillCards section img {
-    width: 40px;
-    height: 40px;
-    border: 1px solid red;
+    width: 120px;
+    height: 120px;
+    /* border: 1px solid red; */
 }
 .skillCards section h1 {
 
